@@ -3,14 +3,14 @@ package interfaceApplication;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import JGrapeSystem.rMsg;
-import apps.appsProxy;
-import email.mail;
-import interfaceModel.GrapeDBSpecField;
-import interfaceModel.GrapeTreeDBModel;
-import nlogger.nlogger;
-import security.codec;
-import string.StringHelper;
+import common.java.JGrapeSystem.rMsg;
+import common.java.apps.appsProxy;
+import common.java.email.mail;
+import common.java.interfaceModel.GrapeDBSpecField;
+import common.java.interfaceModel.GrapeTreeDBModel;
+import common.java.nlogger.nlogger;
+import common.java.security.codec;
+import common.java.string.StringHelper;
 
 /**
  * 邮箱操作
@@ -182,8 +182,8 @@ public class Email {
     }
 
     /**
-     * 获取发件人邮箱信息
-     *    state  状态 ：0：可用状态；1：不可用状态
+     * 获取发件人邮箱信息 state 状态 ：0：可用状态；1：不可用状态
+     * 
      * @param sdkUserID
      * @return
      */

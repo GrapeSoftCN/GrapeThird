@@ -3,16 +3,16 @@ package interfaceApplication;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import JGrapeSystem.rMsg;
-import apps.appIns;
-import apps.appsProxy;
-import database.DBHelper;
-import database.db;
-import security.codec;
-import string.StringHelper;
-import thirdsdk.wechatHelper;
-import thirdsdk.wechatModel;
+import common.java.JGrapeSystem.rMsg;
+import common.java.apps.appIns;
+import common.java.apps.appsProxy;
+import common.java.database.DBHelper;
+import common.java.database.db;
+import common.java.security.codec;
+import common.java.string.StringHelper;
 
+import common.java.thirdsdk.wechatHelper;
+import common.java.thirdsdk.wechatModel;
 /**
  * 推送消息到微信，支持图文和文本
  * 支持保存素材至微信

@@ -3,12 +3,11 @@ package interfaceApplication;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import JGrapeSystem.rMsg;
-import apps.appsProxy;
-import interfaceModel.GrapeDBSpecField;
-import interfaceModel.GrapeTreeDBModel;
-import string.StringHelper;
-
+import common.java.JGrapeSystem.rMsg;
+import common.java.apps.appsProxy;
+import common.java.interfaceModel.GrapeDBSpecField;
+import common.java.interfaceModel.GrapeTreeDBModel;
+import common.java.string.StringHelper;
 /**
  * 第三方平台操作
  *
